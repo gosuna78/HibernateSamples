@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.studentdatamanager.jpa.StudentDao;
 import com.studentdatamanager.model.Student;
 
+/**
+ * The type Student dao service.
+ */
 public class StudentDaoService implements StudentDao {
 
     @Autowired

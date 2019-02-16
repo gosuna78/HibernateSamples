@@ -7,7 +7,7 @@ import com.studentdatamanager.jpa.StudentDao;
 import com.studentdatamanager.model.Student;
 
 /**
- *
+ * The type Student data manager client.
  */
 public class StudentDataManagerClient {
 
@@ -22,6 +22,11 @@ public class StudentDataManagerClient {
                 .getBean("studentDataManagerDao");
     }
 
+    /**
+     * Main.
+     *
+     * @param args the args
+     */
     public static void main(final String[] args) {
         try {
             init();
@@ -32,7 +37,7 @@ public class StudentDataManagerClient {
             System.exit(0);
         }
         // Save
-        final Student student = new Student("FIST_NAME","LAST_NAME","EMAIL");
+        final Student student = new Student("FIST_NAME", "LAST_NAME", "EMAIL");
         studentDao.saveStudent(student);
     }
 }

@@ -4,14 +4,39 @@ import java.util.List;
 
 import com.studentdatamanager.model.Student;
 
+/**
+ * The interface Student dao.
+ */
 public interface StudentDao {
 
-    public void saveStudent(final Student student);
+    /**
+     * Save student.
+     *
+     * @param student the student
+     */
+    void saveStudent(final Student student);
 
-    public List<Student> getAllStudent();
+    /**
+     * Gets all student.
+     *
+     * @return the all student
+     */
+    List<Student> getAllStudent();
 
-    public Student getStudentById(final int studentId);
+    /**
+     * Gets student by id.
+     *
+     * @param studentId the student id
+     * @return the student by id
+     */
+    Student getStudentById(final int studentId);
 
-    public int deleteStudent(final int studentId);
+    /**
+     * Delete student int.
+     *
+     * @param studentId the student id
+     * @return the int
+     */
+    int deleteStudent(final int studentId);
 
 }
