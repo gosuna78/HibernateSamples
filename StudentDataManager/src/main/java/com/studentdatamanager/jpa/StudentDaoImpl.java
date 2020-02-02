@@ -1,19 +1,18 @@
 package com.studentdatamanager.jpa;
 
-import java.util.List;
-
+import com.studentdatamanager.model.Student;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
+import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.studentdatamanager.model.Student;
+import java.util.List;
 
 
 @Transactional
 public class StudentDaoImpl extends HibernateDaoSupport implements
-        StudentDao {
+    StudentDao {
 
     @Autowired
     public void init(final SessionFactory factory) {

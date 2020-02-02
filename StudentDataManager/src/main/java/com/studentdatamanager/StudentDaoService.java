@@ -1,11 +1,10 @@
 package com.studentdatamanager;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.studentdatamanager.jpa.StudentDao;
 import com.studentdatamanager.model.Student;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
 
 /**
  * The type Student dao service.
