@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- Spring -->
-		<spring-framework.version>4.1.4.RELEASE</spring-framework.version>
+		<spring-framework.version>5.2.3.RELEASE</spring-framework.version>
 
 		<!-- Hibernate / JPA -->
 		<hibernate.version>4.1.4.Final</hibernate.version>
