@@ -22,7 +22,7 @@
 		<hibernate.common.version>4.0.5.Final</hibernate.common.version>
 
 		<!-- MySql -->
-		<mysql.version>5.1.34</mysql.version>
+		<mysql.version>8.0.16</mysql.version>
 
 		<!-- Test -->
 		<junit.version>4.11</junit.version>
